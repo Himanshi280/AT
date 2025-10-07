@@ -1,8 +1,8 @@
 version: 3
 projects:
-  - name: localfile
+  - name: demo
     dir: .
     workspace: default
     autoplan:
-      when_modified: ["*.tf"]
+      when_modified: ["*.tf", "*.tfvars"]
       enabled: true
