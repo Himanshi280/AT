@@ -47,6 +47,6 @@ resource "aws_instance" "demo_ec2" {
               EOF
 
   tags = {
-    Name = "AtlantisDemo"
+    Name = "AtlantisDemo-Test"
   }
 }
